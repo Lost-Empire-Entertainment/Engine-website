@@ -1,0 +1,640 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body {
+    background-color: #1a1a1a;
+    
+}
+
+li, a , button {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+  justify-content:space-between;
+  align-items: center;
+  padding: 15px 5%;
+  background-color: #222222;
+  box-shadow: black 0px 0px 10px 0px;
+  position: relative;
+  width: 100%;
+}
+
+
+
+
+.LogoContainer {
+  display: flex;
+ 
+  align-items: center;
+  flex-shrink: 0; /* Prevents shrinking */
+}
+
+.LogoContainer2 {
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  flex-shrink: 0; /* Prevents shrinking */
+  flex-direction: column;
+  margin: 50px 50px 50px;
+}
+
+.Logo2 {
+  width: 20vw; /* Scales with screen size */
+  height: auto;
+  max-width: 150px; /* Prevents getting too big */
+}
+.Logo {
+  width: 15vw; /* Scales with screen size */
+  height: auto;
+  max-width: 72px; /* Prevents getting too big */
+}
+
+.LogoText {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    text-shadow: 4px 4px 5px black;
+}
+
+
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.nav_Links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; /* Allows items to move if too big */
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+
+  flex-grow: 1;
+}
+
+.nav_Links li {
+  padding: 10px;
+}
+
+
+.nav_Links li a {
+    transition: all 0.5s ease-in-out 0s;
+    text-shadow: 4px 4px 5px black;
+}
+
+.nav_Links li a:hover {
+    color: #009dff;
+   font-size: large;
+   text-decoration: underline;
+   
+}
+
+
+
+
+
+ @keyframes heartbeat{from{transform:scale(1);transform-origin:center center;animation-timing-function:ease-out}10%{transform:scale(.91);animation-timing-function:ease-in}17%{transform:scale(.98);animation-timing-function:ease-out}33%{transform:scale(.87);animation-timing-function:ease-in}45%{transform:scale(1);animation-timing-function:ease-out}}
+
+
+
+
+
+.Donate_B button {
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: x-large;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-animation:heartbeat 1.5s ease-in-out infinite both;animation:heartbeat 1.5s ease-in-out infinite both
+}
+
+.Donate_B button i {
+  margin-right: 10px;
+  font-size: xx-large;
+  
+}
+
+
+
+
+.btn-moving-gradient {
+    height: 55px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+
+    
+  } 
+
+  .btn-moving-gradient:hover {
+    transition: all 0.5s ease-in-out 0.1s;
+    background-position: 100% 0px;
+    
+    
+  } 
+
+  .btn-moving-gradient--blue {
+    background-image: linear-gradient(to right, #f953c6, #b91d73);
+  
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px 0px;
+  } 
+
+
+
+
+
+
+@keyframes bounce-top {
+			
+  0% {
+    transform:translateY(0);
+  }
+  25% {
+    transform:translateY(0);
+  }
+  40% {
+    transform:translateY(-24px);
+  }
+  55% {
+    transform:translateY(0);
+  }
+  65% {
+    transform:translateY(-12px);
+  }
+  75% {
+    transform:translateY(0);
+  }
+  82% {
+    transform:translateY(-6px);
+  }
+  87% {
+    transform:translateY(0);
+  }
+  93% {
+    transform:translateY(-4px);
+  }
+  100% {
+    transform:translateY(0);
+  }
+}
+
+
+.Download_H {
+  display: flex;
+  color: white;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+ 
+ outline: 3px solid black ;
+ justify-content: center;
+ background: #00d2ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+ 
+
+
+
+  padding: 30px 30px 30px;
+
+  box-shadow:  black 15px  0px 15px 5px, inset black 2px  0px 10px 2px ;
+}
+
+
+
+
+.AboutElypso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: row;
+  color: white;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  font-size: larger;
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.AboutElypso h3 {
+  color: #00d2ff;
+}
+
+.AboutElypso p {
+  font-size: large;
+}
+
+.AboutElypso li a {
+  text-decoration: underline;
+
+  color: #009dff;
+ 
+}
+
+
+.Os {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+
+
+
+
+.DownloadLatest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  flex-wrap: wrap;
+  margin: 100px 100px 100px;
+
+  
+}
+
+.DownloadLatest button {
+  width: 260px;
+  height: 80px;
+  border-radius: 30px;
+  
+  
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  font-size: large;
+}
+
+.Download_Latest_Windows {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsla(194 100% 69% / 1);
+  --btn-bg-2: hsla(217 100% 56% / 1);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1rem);
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(
+    325deg,
+    var(--btn-bg-2) 0%,
+    var(--btn-bg-1) 55%,
+    var(--btn-bg-2) 90%
+  );
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow:
+    0px 0px 20px rgba(71, 184, 255, 0.5),
+    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
+    inset 4px 4px 8px rgba(175, 230, 255, 0.5),
+    inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+}
+
+.Download_Latest_Windows:hover {
+  background-position: right top;
+}
+
+
+.Download_Latest_Windows:is(:focus, :focus-visible, :active) {
+  outline: none;
+  box-shadow:
+    0 0 0 3px var(--btn-bg-color),
+    0 0 0 6px var(--btn-bg-2);
+}
+
+
+
+.Download_Latest_Linux {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: rgb(225, 217, 0);
+  --btn-bg-2: rgb(204, 146, 0);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1rem);
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(
+    325deg,
+    var(--btn-bg-2) 0%,
+    var(--btn-bg-1) 55%,
+    var(--btn-bg-2) 90%
+  );
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow:
+    0px 0px 20px rgba(71, 184, 255, 0.5),
+    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
+    inset 4px 4px 8px rgba(175, 230, 255, 0.5),
+    inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+}
+
+.Download_Latest_Linux:hover {
+  background-position: right top;
+}
+
+
+.Download_Latest_Linux:is(:focus, :focus-visible, :active) {
+  outline: none;
+  box-shadow:
+    0 0 0 3px var(--btn-bg-color),
+    0 0 0 6px var(--btn-bg-2);
+}
+
+.Older_Versions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+
+
+  margin-top: 40px;
+}
+
+
+
+.Header_V {
+  font-size: 55px;
+  color: white;
+  padding: 20px 20px 20px;
+  background-color: rgb(27, 40, 52);
+
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 10px;
+}
+
+
+
+.versions ul,ol {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.versions ul li{
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.versions ul li:hover {
+  color: #00d2ff;
+  text-decoration: underline;
+}
+
+
+
+.versions ul li a {
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.versions ul li a:hover {
+  color: #00d2ff;
+  text-decoration: underline;
+}
+
+
+
+
+
+.versions ol p {
+
+  font-size: 20px;
+  color: white;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.versions ol p:hover {
+  color: #00d2ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Author {
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-top: 50px;
+  padding-left: 50px;
+  font-family: "Exo", sans-serif;
+  font-size: x-large;
+  color: rgb(0, 255, 30);
+  text-shadow: rgba(51,255,0,0.92) 0px 0px 17px;
+  background-color:rgb(27, 40, 52);
+  margin: 30px 30px 30px;
+  padding-bottom: 50px;
+  border-radius: 70px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+
+.Div_FooterContainer {
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+
+  min-width: 600px;
+  margin-top:  50px;
+  padding: 20px 20px 20px;
+  color: rgba(255, 255, 255, 0.435);
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  
+
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color:rgb(27, 40, 52);
+  
+}
+
+
+
+.NavContainer {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.SocialContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+/* Hamburger Menu Styles */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+
+/* Media Queries for Mobile */
+@media (max-width: 730px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .LogoContainer {
+    margin-bottom: 10px; /* Add space between logo and nav */
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background: #1a1a1a;
+    width: 80%;
+    height: 100vh;
+    transition: all 0.5s ease-in-out;
+    padding-top: 80px;
+    z-index: 999;
+    box-shadow: black 0px 0px 10px 0px;
+  }
+
+  nav.active {
+    right: 0;
+  }
+
+  .nav_Links {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0;
+  }
+
+  .nav_Links li {
+    margin: 10px 0;
+    padding: 15px;
+  }
+
+  .nav_Links li a {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 3px black;
+  }
+
+  .Donate_B {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+  }
+
+  .Donate_B button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 12px 0;
+  }
+
+  .Bg_Image {
+    height: auto; /* Adjust height for smaller screens */
+  }
+
+  .OverlayText {
+    top: 20%; /* Adjust overlay position */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+  }
+
+  .OverlayText h1 {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  .OverlayText p {
+    font-size: 16px; /* Reduce font size for smaller screens */
+  }
+
+  .Get_Elypso {
+    top: 80%; /* Adjust button position */
+  }
+
+  .Get_Elypso button {
+    width: 60vw; /* Adjust button width */
+    height: auto;
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
