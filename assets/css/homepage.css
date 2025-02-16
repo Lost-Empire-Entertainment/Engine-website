@@ -1,0 +1,13 @@
+/* the main overlay used at the home page */
+.hp-main-overlay {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(37, 40, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
