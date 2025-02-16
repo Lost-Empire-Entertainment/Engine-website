@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+
+# MkDocs cache
+*.cache
+
+# VS Code settings
+.vs/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Log files
+*.log
+
+# Ignore OS-specific files
+Thumbs.db  # Windows
+
+# Ignore editor swap/temp files
+*.swp
+*.swo
+
+# Ignore Git merge conflict files
+*.orig
