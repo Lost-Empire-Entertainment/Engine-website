@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+
+# MkDocs build directory (generated site)
+site/
+
+# VS Code settings
+.vs/
+.vscode/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Log files
+*.log
+
+# Ignore OS-specific files
+Thumbs.db  # Windows
+
+# Ignore editor swap/temp files
+*.swp
+*.swo
