@@ -13,4 +13,5 @@ $env:GIT_PYTHON_GIT_EXECUTABLE = "C:\Program Files\Git\cmd\git.exe" # set git ex
 mkdocs --version                    # verify version
 mkdocs serve                        # serve mkdocs locally (test at "http://127.0.0.1:8000/" to see if it works)
 
-mkdocs gh-deploy                    # deploy to git
+mkdocs build                        # update site folder
+mkdocs gh-deploy                    # deploy to git (fully updates all files and folders, not recommended)
