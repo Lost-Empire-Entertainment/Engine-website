@@ -8,7 +8,7 @@ Write-Host "Activating virtual environment..."
 
 # Run MkDocs deployment
 Write-Host "Running MkDocs deployment..."
-mkdocs gh-deploy
+mkdocs build
 
 # Git operations
 Write-Host "Adding changes to Git..."
