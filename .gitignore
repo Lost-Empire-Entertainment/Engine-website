@@ -1,0 +1,44 @@
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# MkDocs build directory (generated site)
+site/
+
+# MkDocs cache
+*.cache
+
+# VS Code and JetBrains IDE settings
+.vs/
+.vscode/
+.idea/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Log files
+*.log
+
+# Ignore OS-specific files
+Thumbs.db  # Windows
+.DS_Store  # macOS
+
+# Ignore editor swap/temp files
+*.swp
+*.swo
+
+# Ignore compiled C/C++ files (if applicable)
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Ignore Git merge conflict files
+*.orig
