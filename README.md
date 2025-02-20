@@ -23,9 +23,3 @@ The website is currently under construction and is not fully functional. Lots of
 ### Team
 
 * [Greenlaser](https://github.com/greeenlaser) - *Lead developer*
-
----
-
-### Licenses
-
-* [Elypso engine website propietary license](LICENSE.md)
