@@ -6,7 +6,7 @@ var link_Page_Home = "https://elypsoengine.com";
 var link_Page_Docs = "https://elypsoengine.com/pages/docs.html";
 
 // Links to download engine versions
-var link_LatestDownload = "https://github.com/Lost-Empire-Entertainment/Elypso-engine/releases/download/v0.1.1-alpha/0.1.1_alpha.7z"; 
+var link_LatestDownload = "https://github.com/Lost-Empire-Entertainment/Elypso-engine/releases/download/v0.1.2-alpha/Elypso-engine-x64-release-windows.7z"; 
 
 window.onload = function () {
     var btnHome = document.getElementById("btn_Home");
