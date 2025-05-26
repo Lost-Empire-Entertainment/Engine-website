@@ -16,8 +16,6 @@ The website is currently under construction and is not fully functional. Lots of
 
 [Official Youtube channel](https://youtube.com/greenlaser)
 
-[Official Twitch channel](https://www.twitch.tv/greenlaseer)
-
 ---
 
 ### Team
