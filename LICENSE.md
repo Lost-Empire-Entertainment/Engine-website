@@ -1,48 +1,40 @@
-Elypso Engine Website Proprietary License
+# Elypso Website Free License 2.0
 
-Version 1.0
+## 1. Free Use
+- You may **use, modify, and distribute** the Elypso Website source **for free with no time limit**, as long as you comply with this license.
+- You may **add your own content and assets** while using the Elypso Website source.
+  - This includes text, images, scripts, styles, and other content **you create, modify, or add**.
+  - The only exception is any content originating from **third-party libraries or media**, which are governed by their own licenses.
+- You **retain full rights to your own content and assets** added to the website.
+  - However, you **do not gain ownership** of the original or modified Elypso Website source code.
+  - You **may not claim ownership** over any version of the Elypso Website, including modified versions.
 
-1. Definitions
+## 2. No Commercial Distribution
+- You **may not sell, rent, sublicense, or trade** the Elypso Website source or **any modified version** for money or any other compensation.
+- You **may host, deploy, or use** modified versions of the Elypso Website freely, including for personal or commercial websites.
+  - You may monetize your own **content or services**, but **you may not sell the website source itself**, whether original or modified.
+  - This includes selling it as a template, kit, theme, or embedded in a commercial product.
 
-- "Source" refers to the source code and media distributed by Lost Empire Entertainment.
-- "You" refers to the individual or entity using the Website source code under the terms of this license.
-- "Lost Empire Entertainment" refers to the entity distributing the source code under this license.
-- "Jurisdiction" refers to the legal jurisdiction in which Lost Empire Entertainment operates.
+## 3. Modification & Attribution (For Distributed Versions)
+- If you **modify and distribute** the Elypso Website source (source or compiled), you **must document your changes**.
+- You **must credit the original creator** in any publicly shared or published modified versions.
+- **Private modifications** do not require documentation or attribution as long as they are not shared or distributed.
 
-2. Grant of License
+## 4. Copyright & Notices
+- You must **not remove or alter** copyright, attribution, or proprietary notices in Elypso Website source files.
+- You may not use the **name, logo, or branding** of Lost Empire Entertainment to promote modified versions **without written permission**.
 
-    Subject to the terms and conditions of this license, Lost Empire Entertainment hereby grants you a worldwide, royalty-free, non-exclusive, non-transferable license to use, modify, and distribute the Source for any lawful purpose, provided that such use, modification, and distribution do not violate any applicable laws or regulations.
+## 5. No Warranty & Limitation of Liability
+- The Elypso Website source is provided **“as is”**, with **no warranties**—express or implied.
+- The creator provides **no guarantees** regarding performance, functionality, security, or suitability.
+- You **assume all risks** from using the Website source, including data loss, deployment issues, or legal claims.
+- The creator is **not liable** for any damages, losses, or claims resulting from the use of the Website source.
+- By using the Elypso Website source, you agree that **you are solely responsible** for ensuring it meets your requirements.
 
-3. Restrictions
+## 6. Third-Party Content
+- The folder `images/third-party` may include assets owned by **third parties**.
+- You **must comply** with any separate licenses or permissions associated with those assets.
+- This license **does not grant rights** to third-party content, and the creator **disclaims responsibility** for their use.
 
-    You may not sublicense, sell, rent, lease, or otherwise transfer the Source or any modified versions thereof to any third party without the prior written consent of Lost Empire Entertainment.
-    You may not remove or alter any copyright notices, trademarks, or other proprietary rights notices contained in the Source.
-    You may not use the name, logo, or trademarks of Lost Empire Entertainment to endorse or promote products derived from the Source without prior written permission.
-
-4. Proprietary Rights
-
-    The Source, and all worldwide copyrights, trade secrets, and other intellectual property rights therein are the exclusive property of Lost Empire Entertainment. All rights not expressly granted herein are reserved by Lost Empire Entertainment.
-
-5. Disclaimer of Warranty
-
-    THE SOURCE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LOST EMPIRE ENTERTAINMENT DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. LOST EMPIRE ENTERTAINMENT DOES NOT WARRANT THAT THE ENGINE OR HUB SOFTWARE WILL BE ERROR-FREE OR UNINTERRUPTED.
-
-6. Termination
-
-    This license is effective until terminated. Your rights under this license will terminate automatically without notice from Lost Empire Entertainment if you fail to comply with any term(s) of this license. Upon termination of this license, you shall cease all use of the Source, and destroy all copies, full or partial, in your possession or control.
-
-7. Governing Law
-
-    This license shall be governed by and construed in accordance with the laws of the jurisdiction in which Lost Empire Entertainment operates, without regard to its conflict of law provisions.
-
-8. Entire Agreement
-
-    This license constitutes the entire agreement between you and Lost Empire Entertainment concerning the Source and supersedes all prior or contemporaneous agreements, representations, and understandings, whether oral or written.
-
-9. Modifications to this License
-
-    Lost Empire Entertainment reserves the right to modify this license at any time. Any such modifications will be effective immediately upon posting on Lost Empire Entertainment's website or other designated location. You are responsible for regularly reviewing the license for updates. Your continued use of the Source after the posting of any modifications constitutes acceptance of the modified license terms.
-
-10. Third-Party Content
-
-    The folder "images/third-party" within the Source may contain images that are owned by third parties and are subject to separate terms and conditions. You acknowledge that you do not own these images and agree to comply with any applicable licenses or permissions associated with them. Lost Empire Entertainment disclaims any responsibility for the use of third-party content and encourages you to seek appropriate permissions or licenses for such content.
+## 7. Termination
+- If you violate any terms of this license, your rights to use the Elypso Website source are **automatically and immediately revoked**.
